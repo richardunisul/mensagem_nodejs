@@ -5,7 +5,7 @@ const cors = require('cors');
 const app = express(); // Inicializa o servidor
 const port = 8000; //Define a porta do servidor
 
-app.use(express.urlencoded({extended: true}))
+//app.use(express.urlencoded({extended: true}))
 app.use(cors());
 app.use(express.json());
  
